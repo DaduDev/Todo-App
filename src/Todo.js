@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./Todo.css";
 
 const Todo = () => {
-  const [todos, setTodos] = useState([""]);
+  const [todos, setTodos] = useState([]);
   const [newTodo, setNewTodo] = useState("");
 
   const handleAddTodo = () => {
