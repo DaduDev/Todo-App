@@ -1,0 +1,59 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.new {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.intBox {
+  padding: 1rem;
+  background-color: aliceblue;
+  border-radius: 1rem;
+}
+
+.submitBtn {
+  padding: 0.8rem;
+  background-color: #cad5e2;
+  border-radius: 0.7rem;
+  margin: 1rem;
+  outline: none;
+}
+
+.todo {
+  display: flex;
+  flex-direction: row;
+  padding: 1rem;
+  background-color: #207398;
+  border-radius: 1rem;
+  width: 15rem;
+  margin: 1rem;
+}
+
+.txt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #cad5e2;
+  margin-left: 1rem;
+  background-color: #207398;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  background-color: #207398;
+}
+
+.btn1 {
+  background-color: #a77b06;
+  padding: 0.6rem;
+  border-radius: 0.7rem;
+  outline: none;
+}
