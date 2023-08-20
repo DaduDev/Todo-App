@@ -72,7 +72,7 @@ const Todo = () => {
                   {todo.text}
                 </span>
                 <div className="btns">
-                  <button
+                  <button type="submit"
                     className="btn1"
                     onClick={() => handleDeleteTodo(index)}
                   >
