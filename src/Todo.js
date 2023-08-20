@@ -89,34 +89,3 @@ const Todo = () => {
 };
 
 export default Todo;
-
-// {todos.map((todo, index) => (
-//   <li
-//     key={index}
-//     style={{
-//       display: "flex",
-//     }}
-//   >
-//     <div style={{ display: "flex", alignItems: "center" }}>
-//       <input
-//         type="checkbox"
-//         checked={todo.checked}
-//         onChange={() => handleToggleTodo(index)}
-//       />
-//       <span
-//         style={{
-//           marginRight: "10px",
-//           textDecoration: todo.checked ? "line-through" : "none",
-//         }}
-//       >
-//         {todo.text}
-//       </span>
-//     </div>
-//     <button
-//       style={{ marginTop: "5px", marginBottom: "5px" }}
-//       onClick={() => handleDeleteTodo(index)}
-//     >
-//       Delete
-//     </button>
-//   </li>
-// ))}
